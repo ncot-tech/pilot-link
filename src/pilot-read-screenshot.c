@@ -87,8 +87,8 @@ void write_png ( char *fname, struct ss_state *state )
 		gray_buf = malloc( state->w );
 
 	png_ptr = png_create_write_struct
-		(PNG_LIBPNG_VER_STRING, png_voidp_NULL,
-		png_error_ptr_NULL, png_error_ptr_NULL);
+		(PNG_LIBPNG_VER_STRING, NULL,
+		NULL, NULL);
 
 	if (!png_ptr)
 		return;

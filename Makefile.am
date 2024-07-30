@@ -6,9 +6,7 @@ SUBDIRS=popt 		\
 	include 	\
 	src 		\
 	bindings 	\
-	doc 		\
-	tests 		\
-	darwin
+	doc 		
 
 m4dir = $(datadir)/aclocal
 m4_DATA = pilot-link.m4
